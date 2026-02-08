@@ -27,7 +27,7 @@
 
   /* IMAGEN */
   .foto {
-    width: 260px; /* antes 180px */
+    width: 260px; /* texto grande */
     margin-bottom: 35px;
   }
 
@@ -59,7 +59,8 @@
   font-size: 14px;
   line-height: 2.2;
   padding: 20px;
-  animation: scroll 120s linear forwards; /*le metemo nitro'*/
+  animation: scroll 100s linear forwards; /*le metemo nitro'*/
+  white-space: pre-line; /* pa que no quede todo junto*/
 }
 
 @keyframes scroll {
@@ -81,6 +82,7 @@
   <img src="foto.png" class="foto">
   <h1>PRESS START</h1>
   <button onclick="Start()">Start</button>
+  <p class="warning"> PD: Estoy a punto de ser cursi, báncame en esta </p>
 </div>
 
 <!-- CREDITOS -->
@@ -92,7 +94,7 @@
 <p>un hombre que decidió escribirle una mujer</p>
 <p>expresando deseo, apego y anhelo</p>
 <p>esta carta, escrita en una tablilla de arcilla</p>
-<p>es considerada la primera carta de amor escrita en por la humanidad</p>
+<p>es considerada la primera carta de amor escrita en la humanidad</p>
 
 <p>Antes de que existiera el término más formal que conocemos hoy en día,</p>
 <p>el amor ya se escribía en objetos, gestos y también en metáforas</p>
@@ -188,3 +190,4 @@ console.log("Hecho con amor 💛");
 
 </body>
 </html>
+
